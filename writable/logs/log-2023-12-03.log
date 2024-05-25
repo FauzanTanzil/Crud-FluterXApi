@@ -1,0 +1,34 @@
+ERROR - 2023-12-03 05:53:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-12-03 05:53:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\toko-api-main\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\toko-api-main\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\toko-api-main\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\xampp\htdocs\toko-api-main\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#4 C:\xampp\htdocs\toko-api-main\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#5 C:\xampp\htdocs\toko-api-main\app\Controllers\RegistrasiController.php(22): CodeIgniter\BaseModel->save(Array)
+#6 C:\xampp\htdocs\toko-api-main\system\CodeIgniter.php(802): App\Controllers\RegistrasiController->registrasi()
+#7 C:\xampp\htdocs\toko-api-main\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrasiController))
+#8 C:\xampp\htdocs\toko-api-main\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\toko-api-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\toko-api-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2023-12-03 05:55:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-12-03 05:55:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\toko-api-main\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\toko-api-main\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\toko-api-main\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#3 C:\xampp\htdocs\toko-api-main\system\Model.php(592): CodeIgniter\Model->countAllResults()
+#4 C:\xampp\htdocs\toko-api-main\system\BaseModel.php(655): CodeIgniter\Model->shouldUpdate(Array)
+#5 C:\xampp\htdocs\toko-api-main\app\Controllers\RegistrasiController.php(22): CodeIgniter\BaseModel->save(Array)
+#6 C:\xampp\htdocs\toko-api-main\system\CodeIgniter.php(802): App\Controllers\RegistrasiController->registrasi()
+#7 C:\xampp\htdocs\toko-api-main\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrasiController))
+#8 C:\xampp\htdocs\toko-api-main\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\toko-api-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\toko-api-main\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
